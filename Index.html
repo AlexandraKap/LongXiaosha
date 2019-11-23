@@ -1,0 +1,104 @@
+<doctype html>
+    <html>
+    <head>
+            <meta charset="utf-8"> 
+            <meta name="viewport"content="width=device-width, initial-scale=1"
+            <link rel="stylesheet" href="file:///Users/kaplun/Documents/Project/Lesson%202/index%20test.css" type="text/css"> </link>
+    </head>
+    <style>
+    form {
+
+    }
+        </style> 
+    <body>
+        <section>
+      <form name="registratio">
+          <h1>Registration form</h1>
+          <fieldset>
+                <div>
+          <label for="name">Name</label>
+<input class="input" id="name" name="name" type="text" place holder="enter your name" maxlength="10" required>
+          </div>
+          <div>
+<label>Surname</label>
+<input id="surname" name="surname" type="text" place holder="enter your surname" maxlength="20" required>
+</div>
+<div>
+    <label>Birth date</label>
+    <input type="date" min="2018-12-12">
+    </div>
+    <div>
+        <label>City</label>
+        <select required>
+            <option value=""
+            <option value=kv>Kyiv</option>
+            <option value=od>Odessa</option>
+            <option value=lv selected>Lviv</option>
+        </select>
+    </div>
+    <div>
+        <p>Favourite food</p>
+        <label>Pizza</label>
+        <input type="checkbox" value="pizza" label="pizza"> </input>
+        <label>Sushi</label>
+        <input type="checkbox" value="sushi" label="sushi"> </input>
+        <label>Borshch</label>
+        <input type="checkbox" value="borshc" label="borshc" checked disabled> </input>
+    </div>
+    <div>
+        <P>Gender</P>
+            <label>Male</label>
+            <input type="radio" value="male" name="gender">
+            <label>Female</label>
+            <input type="radio" value="female" name="gender">
+
+    </div>
+    <div>
+            <P>Age</P>
+                <label>21-30</label>
+                <input type="radio" value="20-30" name="age">
+                <label>30-40</label>
+                <input type="radio" value="30-40" name="age">
+                <label>40-50</label>
+                <input type="radio" value="40-50" name="age">
+    
+        </div>
+<div>
+    <textarea placeholder="Leave a comment" style="max-width:1000px;max-height:200px;min-width:1000px;min-height:200px"></textarea>  
+</div>
+<div>
+        <button type="submit" name="registration">Submit</button>
+        <button type="reset" name="reset">Reset</button>
+</div>
+
+</fieldset>
+</form>
+</section>
+<section>
+    <table border="1">
+        <thead>
+<tr>
+    <th>N</th>
+    <th>Name</th>
+    <th>City</th>
+</tr>
+        </thead>
+        <tbody>
+<tr>
+        <td>1</td>
+        <td>Sasha</td>
+        <td>Kyiv</td>
+</tr>
+<tr>
+        <td>2</td>
+        <td>Masha</td>
+        <td>Odessa</td>
+</tr>
+        </tbody>
+         <tfoot>Page</tfoot>
+    </table>
+</section>
+    </body>
+</head>    
+</html>
+
